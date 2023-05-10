@@ -46,7 +46,7 @@ systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
 
-git clone -b local-setup https://github.com/pankum1/Test.git
+git clone -b main https://github.com/pankum1/Test.git
 cd Test
 mvn install
 systemctl stop tomcat
